@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    image: large-file-upload-site
+    build: .
+    container_name: large-file-upload
+    restart: always
+    ports:
+      - "8080:80"
