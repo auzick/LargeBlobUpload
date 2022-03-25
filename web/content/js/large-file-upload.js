@@ -1,3 +1,5 @@
+// Adapted from https://gauravmantri.com/2013/02/16/uploading-large-files-in-windows-azure-blob-storage-using-shared-access-signature-html-and-javascript/
+
 var maxBlockSize = 256 * 1024;//Each file will be split in 256 KB.
 var numberOfBlocks = 1;
 var selectedFile = null;
