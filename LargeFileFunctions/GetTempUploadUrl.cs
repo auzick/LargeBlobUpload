@@ -18,9 +18,6 @@ public class GetTempUploadUrl
 {
     private AzureFunctionSettings settings;
 
-    // Presumably we get this from app settings:
-    // private const string storageAccountConnectionString = "DefaultEndpointsProtocol=https;AccountName=largefilepoc;AccountKey=7rKj4p4LxzzIv3twt+mc5+iSSrJGkL/5Op7e6CQo8UKDbt3Ky0alK7yDACn2GbTywxia6kFoGsGRXu3cgKM1Pw==;EndpointSuffix=core.windows.net";
-
     public GetTempUploadUrl(AzureFunctionSettings settings)
     {
         this.settings = settings;
